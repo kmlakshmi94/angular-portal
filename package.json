@@ -1,0 +1,37 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "live-server --port=5001",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmlakshmi94/angular-portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmlakshmi94/angular-portal/issues"
+  },
+  "homepage": "https://github.com/kmlakshmi94/angular-portal#readme",
+  "dependencies": {
+    "@angular/common": "^15.2.8",
+    "@angular/compiler": "^15.2.8",
+    "@angular/core": "^15.2.8",
+    "@angular/platform-browser": "^15.2.8",
+    "@angular/platform-browser-dynamic": "^15.2.8",
+    "core.js": "^0.4.2",
+    "rxjs": "^7.8.1",
+    "systemjs": "^6.14.1",
+    "zone.js": "^0.13.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "typescript": "^5.0.4"
+  }
+}
